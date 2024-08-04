@@ -1,8 +1,8 @@
 import React from 'react'
-import { BsMenuUp } from "react-icons/bs";
-import { FaSearch, FaHome,FaChartBar,FaRegStickyNote, FaWallet, FaCarBattery } from "react-icons/fa";
+import { FaSearch } from "react-icons/fa";
 import { CiMail, CiSettings } from "react-icons/ci";
-import { IoIosNotificationsOutline, IoMdLogOut } from "react-icons/io";
+import { IoIosNotificationsOutline } from "react-icons/io";
+import { LuFlower } from "react-icons/lu";
 
 function Navbar() {
     return (
@@ -10,7 +10,7 @@ function Navbar() {
         <nav className='px-2 py-3 shadow' style={{ backgroundColor:  "#292A31" }}>
             <div className="row align-items-center m-0">
                 <div className="col-sm-1 col-2 ">
-                    <span className='d-flex align-items-center' style={{ color: "#7094FF", fontSize:"28px" }}><BsMenuUp /></span>
+                    <span className='d-flex align-items-center' style={{ color: "#7094FF", fontSize:"28px" }}><LuFlower /></span>
                 </div>
                 <div className="col-sm-7 col-md-8 col-10">
                     <div className='search-bar'>

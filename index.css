@@ -1,7 +1,7 @@
-*{
-  padding: 0;
-  margin: 0;
-  box-sizing: border-box;
+
+body{
+  font-family: "Google Sans", Roboto, arial, sans-serif;
+
 }
 nav{
   position: fixed;
@@ -81,7 +81,7 @@ td .table-image {
   width: 40px;
   height: 40px;
   border-radius: 50%;
-  background-image: url('./assets/image.jpg') ;
+  background-image: url('./assets/userPlaceholder.png') ;
   background-size: cover;
   background-repeat: no-repeat;
 }
@@ -89,7 +89,7 @@ td .table-image {
   width: 25px;
   height: 25px;
   border-radius: 50%;
-  background-image: url('./assets/image.jpg') ;
+  background-image: url('./assets/userPlaceholder.png') ;
   background-size: cover;
   background-repeat: no-repeat;
 }
